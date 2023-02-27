@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6bd9ea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass
+{
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    padding: 50px;
+    text-align: center;
+    width: 40%;
+    min-height: 80vh;
+    border-radius: 30px;
+    background: linear-gradient(to right top, rgb(255, 255, 255, 0.7), rgb(255, 255, 255,0.3));
+}
+
+table, tr, td {
+    position: static;
+    top: 100px;
+    border: 1px solid rgb(101, 0, 104);
+    border-collapse: collapse;
+  }
+
+ /* tr:nth-child(even) {
+    background-color: #D6EEEE;
+  } */
